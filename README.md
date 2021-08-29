@@ -14,7 +14,7 @@ A lightweight MyBB plugin to show warning messages on posts in a thread.
 ## Configuration
 The warning display is easily customizable via a template in the AdminCP. `AdminCP > Templates & Style > Templates > Global Templates > warning_display_template`
 
-To customize where the message is displayed in the postbit, look for `{$post['warning_display']}` in `AdminCP > Templates & Style > Templates > Default Templates > Post Bit Templates > postbit`
+To customize where the message is displayed in the postbit, use `{$post['warning_display']}` in `AdminCP > Templates & Style > Templates > Default Templates (Or your theme's templates) > Post Bit Templates > postbit`
 
 ## Example
 
